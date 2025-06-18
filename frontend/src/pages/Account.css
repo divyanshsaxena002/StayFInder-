@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.account-container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.account-card {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(44, 83, 100, 0.10);
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  min-width: 340px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.account-avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(44, 83, 100, 0.10);
+}
+
+.account-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.account-info {
+  margin: 1.5rem 0;
+  text-align: left;
+  color: #444;
+  font-size: 1.08rem;
+}
+.account-info div {
+  margin-bottom: 0.7rem;
+}
+.account-info strong {
+  color: #1976d2;
+  font-weight: 600;
+}
+
+.account-btn {
+  margin-top: 1.2rem;
+  padding: 0.7rem 2rem;
+  border-radius: 0.7rem;
+  border: none;
+  background: #1976d2;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.08rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+  transition: background 0.2s;
+}
+.account-btn:hover {
+  background: #1251a3;
+}
+
+.account-loading {
+  color: #888;
+  font-size: 1.08rem;
+} 

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.navbar {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 80px;
+  box-shadow: 0 2px 8px rgba(44, 83, 100, 0.06);
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  z-index: 10;
+}
+
+.navbar-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 30px;
+}
+.logo-link {
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+.logo-blue {
+  color: #3b5998;
+}
+.logo-orange {
+  color: #ff9800;
+  margin-left: 2px;
+}
+.logo-tagline {
+  font-size: 0.8rem;
+  color: #bdbdbd;
+  letter-spacing: 2px;
+  margin-top: -2px;
+  margin-left: 2px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  justify-content: flex-end;
+}
+.navbar-links li {
+  margin: 0 18px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.08rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: color 0.2s, border-bottom 0.2s;
+  padding-bottom: 2px;
+  position: relative;
+}
+.nav-link:hover {
+  color: #ff9800;
+}
+
+.navbar-cta {
+  margin-left: 30px;
+}
+.book-btn {
+  background: #ff9800;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.08rem;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(255, 152, 0, 0.08);
+  letter-spacing: 1px;
+  cursor: pointer;
+  display: inline-block;
+}
+.book-btn:hover {
+  background: #e68900;
+  color: #fff;
+}
+
+.navbar-search {
+  margin: 0 30px;
+  padding: 0.7rem 1.2rem;
+  border-radius: 2rem;
+  border: 1.5px solid #e0e0e0;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  background: #fafbfc;
+  color: #222;
+  box-shadow: 0 2px 8px rgba(44, 83, 100, 0.06);
+  transition: border 0.2s, box-shadow 0.2s;
+  min-width: 220px;
+  max-width: 320px;
+}
+.navbar-search:focus {
+  border: 1.5px solid #ff9800;
+  box-shadow: 0 2px 12px rgba(255, 152, 0, 0.10);
+}
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 10px;
+  }
+  .navbar-logo {
+    margin-bottom: 10px;
+  }
+  .navbar-links {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .navbar-cta {
+    margin-left: 0;
+  }
+  .navbar-search {
+    margin: 10px 0;
+    min-width: 120px;
+    max-width: 100%;
+    width: 100%;
+  }
+} 
