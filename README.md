@@ -45,7 +45,9 @@
    - Backend API: http://localhost:5000
 
 ## 📸 Screenshots
-
+![img1](https://github.com/divyanshsaxena002/StayFInder-/blob/main/img/1.png)
+![img2](https://github.com/divyanshsaxena002/StayFInder-/blob/main/img/2.png)
+![img3](https://github.com/divyanshsaxena002/StayFInder-/blob/main/img/3.png)
 
 ## 🤝 Contributing
 
