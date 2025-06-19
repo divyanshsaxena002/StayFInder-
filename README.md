@@ -49,10 +49,6 @@
 ![img2](https://github.com/divyanshsaxena002/StayFInder-/blob/main/img/2.png)
 ![img3](https://github.com/divyanshsaxena002/StayFInder-/blob/main/img/3.png)
 
-## 🤝 Contributing
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
----
 
-Let me know if you want a shorter version, or if you want to highlight any specific features or technologies!
